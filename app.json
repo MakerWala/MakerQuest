@@ -5,16 +5,7 @@
   "success_url": "/",
   "addons": ["heroku-redis:hobby-dev"],
   "env": {
-    "HEROKU": "true",
-    "HEROKU_REDIS_HOST": {
-      "description": "Redis hostname"
-    },
-    "HEROKU_REDIS_PORT": {
-      "description": "Redis port"
-    },
-    "HEROKU_REDIS_PASSWORD": {
-      "description": "Redis password"
-    }
+    "HEROKU": "true"
   },
   "scripts": {
   }
